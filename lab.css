@@ -12,7 +12,7 @@ h2 {
 path.arc {
   pointer-events: none;
   fill: none;
-  stroke: #000;
+  stroke: green;
   display: none;
 }
 
@@ -26,13 +26,15 @@ path.cell {
 }
 
 .land {
-  fill: none;
-  stroke: lightgrey;
+  fill: lightgrey;
+  stroke: blue;
+  stroke-width:2;
 }
 
 .state-boundary {
   fill: none;
-  stroke: lightgrey;
+  stroke: blue;
+  stroke-width: 2;
 }
 
 #cells.voronoi path.cell {
